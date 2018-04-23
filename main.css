@@ -1,0 +1,92 @@
+body{
+  background-image: url('img/turntable.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0;
+}
+.container{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: rgba(248, 247, 216, 0.6);
+  width: 500px;
+  height: 105vh;
+  margin-left: 450px;
+  border-radius:10px;
+}
+.input{
+  margin-top:50px;
+}
+input[type = 'button']{
+  width:100px;
+  height:30px;
+  border-radius: 50px;
+  border: none;
+  font-size:20px;
+  cursor: pointer;
+  background-color: rgba(221, 221, 221, 0.4);
+  color:#4e3434;
+}
+*:focus {
+    outline: none;
+}
+*:hover{
+  outline: none;
+}
+input[type = 'text']{
+  width:200px;
+  height:30px;
+  padding-left: 9px;
+  border-radius:10px;
+  border: none;
+  font-size:16px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.singerInfo{
+  align-self: flex-start;
+/*  margin-top: 120px;*/
+}
+.image{
+  width: 120px;
+  height: 120px;
+  align-self: flex-end;
+
+  margin-right: 20px;
+  margin-top: 60px;
+}
+img{
+  width: 120px;
+  height: 120px;
+  box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+label{
+  font-size: 25px;
+  color:#4e3434;
+  /*padding-bottom: 20px;*/
+}
+li{
+  width: 200px;
+  height:50px;
+  list-style-type: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+  padding-top:14px;
+  padding-left: 10px;
+}
+ul{
+  display: flex;
+  flex-direction:column;
+}
+.album{
+  margin-top:29px;
+}
+select{
+  width: 200px;
+  height: 40px;
+  border:none;
+  border-radius: 9px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
